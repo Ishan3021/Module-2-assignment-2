@@ -239,6 +239,59 @@ button:hover .banner_right img{
 
 }
 /* media query  for tablet */
-@media only screen and (min-width:689) and (max-width:991) {
-    
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .container{
+        padding: 20px 20px;
+    }
+    .main_heading{
+        font-size: larger;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+   .navigation{
+       display: block;
+       margin: 0 auto;
+       max-width: min-content;
+   }
+   .nav_list ul li a{
+       margin:0;
+       margin-right: 50px;
+   }
+   .banner{
+    display: block;
+    text-align: center;
+    }
+    .banner_left h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .banner_left p{
+        font-size: 20px;
+        text-align: justify;
+        line-height: 25px;
+        max-width: 100%;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
+    .banner_right{
+        width: 100%;
+    }
+    .banner_right img{
+        width:80%;
+    }
+    .all_collection{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
+        justify-content: center;
+        align-items: center;
+       }
+       .our_facilities{
+        display: block;
+    }
+    .facility{
+        text-align: center;
+        margin: 0 auto;
+    }
 }
