@@ -147,3 +147,21 @@ body{
     font-size: 20px;
     font-weight: 300;
 }
+/* footer section */
+.all_footer_content{
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.all_footer_content{
+    font-size: 12px;
+}
+.footer_icon .fab{
+    padding: 5px 7px;
+    height: 23px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: rgb(61, 46, 46);
+}
