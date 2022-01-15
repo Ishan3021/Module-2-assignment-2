@@ -125,3 +125,25 @@ body{
     margin-top: 5px;
     margin-left: 5px;
 }
+
+/* our facilities */
+.our_facilities{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #d684a27b;
+    border-radius: 10px;
+}
+.facility{
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    padding: 20px;
+}
+.facility .logo img{
+    width: 50%
+}
+.facility .info h2{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+}
